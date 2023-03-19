@@ -74,7 +74,7 @@ The following columns will be used in order to develop the model:
   As a Docker container (provided you have a DockerHub account)
 
   ## Components and uses of Intel API AI Analytics Toolkit.
-  -Components:
+ - Components:
   
       - Machine Learning
       
