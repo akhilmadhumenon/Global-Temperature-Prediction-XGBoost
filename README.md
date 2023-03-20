@@ -49,6 +49,8 @@ The following columns will be used in order to develop the model:
  5. Skelearn
       - Scikit-learn (Sklearn) is the most useful and robust library for ML which provides a selection of efficient tools for ML and statistical modeling         including classification, regression, clustering and dimensionality reduction via a consistence interface in Python.
       - syntax to use library: `from sklearn.metrics import mean_squared_error, mean_absolute_error`
+      - syntax to enable Intel(R) Extension for Scikit-learn (https://github.com/intel/scikit-learn-intelex): `from sklearnex import patch_sklearn
+patch_sklearn()`
  6. XGBoost
       - It is a scalable, distributed gradient-boosted decision tree (GBDT) machine learning library.
       - In order to use XGBoost, we need to install Intel Optimized XGBoost as `pip install xgboost`
